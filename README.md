@@ -26,4 +26,4 @@ This plugin makes TEI regularization tag constructions easy to enter.
 
 To use the plugin, select the 'original' text you want to regularize, and hit [ctrl]+[R]. You will be asked for the 'regular form'. When you enter it, the selection will be wrapped in a TEI construction like this:
 
-<choice><orig>{what you selected}</orig><reg>{regular form you entered}</reg></choice>
+&lt;choice&gt;&lt;orig&gt;{what you selected}&lt;/orig&gt;&lt;reg&gt;{regular form you entered}&lt;/reg&gt;&lt;/choice&gt;
