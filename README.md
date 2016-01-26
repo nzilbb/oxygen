@@ -3,6 +3,7 @@
 These are some plugin for the Oxygen XML editor (https://www.oxygenxml.com/).
 
 To install a plugin:
+
 1. download its jar file
 2. Find the folder where Oxygen is installed - something like C:\Program Files\Oxygen XML Editor
 3. In that folder, there's a subfolder called plugins
