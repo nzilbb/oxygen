@@ -1,0 +1,23 @@
+<project name="oxygen" default="all" basedir=".">
+  <description>
+    Oxygen plugins
+  </description>
+
+  <target name="formfill" description="formfill plugin" >
+   <ant antfile="formfill.xml" />
+  </target>  
+
+  <target name="teiregularization" description="teiregularization plugin" >
+   <ant antfile="teiregularization.xml" />
+  </target>  
+
+  <target name="all" description="everything" depends="teiregularization,formfill"
+  />
+
+  <target name="clean" description="clean up" >
+    <delete verbose="true">
+      <fileset dir="." includes="**/*~" defaultexcludes="no" />
+    </delete>
+    <delete dir="bin"/>
+  </target>
+</project>

@@ -1,0 +1,14 @@
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin
+    name="Form fill"
+    description="Finds form fields for the user to supply values for."
+    version="1.0.0"
+    vendor="NZILBB"
+    class="nz.ac.canterbury.ling.oxygen.FormFillPlugin">
+  <runtime>
+    <library name="formfill.jar"/>
+  </runtime>
+  <extension type="documentProcessor" 
+	     class="nz.ac.canterbury.ling.oxygen.FormFillPluginExtension"
+	     keyboardShortcut="ctrl alt H"/>
+</plugin>

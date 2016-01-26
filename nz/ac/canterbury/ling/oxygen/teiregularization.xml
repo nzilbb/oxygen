@@ -1,0 +1,14 @@
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin
+    name="TEI Regularization"
+    description="Creates a regular choice for the original text selected."
+    version="1.0.0"
+    vendor="NZILBB"
+    class="nz.ac.canterbury.ling.oxygen.RegularizationPlugin">
+  <runtime>
+    <library name="teiregularization.jar"/>
+  </runtime>
+  <extension type="selectionProcessor" 
+	     class="nz.ac.canterbury.ling.oxygen.RegularizationPluginExtension"
+	     keyboardShortcut="ctrl R"/>
+</plugin>
